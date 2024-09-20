@@ -15,3 +15,37 @@ body{
     height: 100vh;
     font-family: var(--fonte);
 }
+header{
+    background-color: var(--cor-primaria);
+    text-align: center;
+}
+h1{
+    color: var(--cor-de-fundo);
+    /*cor da fonte*/
+    font-size: 2rem;
+    /*tamanho da fonte*/
+    font-weight: 700;
+    /*peso da fonte*/
+
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    /*text-decoration serve para adicionar ou remover uma
+    decoração no texto*/
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    /*espaçamento externo*/
+    margin: 0 2rem 1rem 0;
+    font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    /*reduz o tamanho*/
+    transform: scale(0.9);
+    /*cria uma transição com 0.5s para o transform*/
+    transition: transform 0.5s;
+}
