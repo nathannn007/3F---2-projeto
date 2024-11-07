@@ -23,7 +23,7 @@ const layout = {
         text: 'Redes sociais com mais usuários no mundo',
         x: 0,
         font:{
-            color: getCSS('--cor-secundaria'),
+            color: getCSS('--cor-primaria'),
             family: getCSS('--font'),
             size: 30
         }
